@@ -3,7 +3,7 @@ import './App.css'
 import Navbar from "./Navbar.jsx";
 import TextArea from './TextArea.jsx';
 import Alert from "./Alert.jsx"
-import About from './About.jsx';
+// import About from './About.jsx';
 import { useState } from 'react';
 // import {
 //   BrowserRouter as Router,
