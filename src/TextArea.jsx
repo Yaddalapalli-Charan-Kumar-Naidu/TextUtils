@@ -49,7 +49,7 @@ export default function TextArea(props) {
     <div className="container">
         {/* <form> */}
         <div className="mb-3">
-            <h1><label htmlFor="textbox" className="form-label">Example textarea</label></h1>
+            <h1><label htmlFor="textbox" className="form-label">textarea</label></h1>
             <textarea className="form-control" id="textbox" rows="8" value={text} onChange={handleTextChange} style={{backgroundColor:props.styles.backgroundColor==="#222222"?"grey":"white",color:props.styles.backgroundColor==="#222222"?"white":"black"}}></textarea>
         </div>
         <button onClick={convertUppercase}>Uppercase</button>
